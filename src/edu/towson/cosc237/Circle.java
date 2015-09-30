@@ -9,16 +9,16 @@ package edu.towson.cosc237;
  *
  * @author 
  */
-public class Class_2 extends Class_1 { 
+public class Circle extends Shape { 
 
-    Class_2() {
+    Circle() {
         
     }
     public void method_2() { 
-        System.out.println("Class_2 output from method_2"); 
+        System.out.println("Circle output from method_2"); 
     }
 
     public String toString() { 
-        return "toString() from Class_2. No method_1 in Class_2. "; 
+        return "toString() from Circle. No method_1 in Circle. "; 
     } 
 }

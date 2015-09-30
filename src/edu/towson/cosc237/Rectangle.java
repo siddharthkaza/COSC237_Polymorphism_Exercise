@@ -9,16 +9,16 @@ package edu.towson.cosc237;
  *
  * @author 
  */
-public class Class_1 { 
-    public void method_1() { 
-        System.out.println("Class_1 output from method_1"); 
+public class Rectangle extends Shape { 
+
+    Rectangle() {
+        
     }
-    public void method_2() { 
-        System.out.println("Class_1 output from method_2"); 
+    public void method_1() { 
+        System.out.println("Rectangle output from method_1"); 
     }
 
     public String toString() { 
-        return "toString() from Class_1"; 
+        return "toString() from Rectangle. No method_2 in Rectangle."; 
     } 
 }
-

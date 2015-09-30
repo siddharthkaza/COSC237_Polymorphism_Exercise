@@ -7,18 +7,18 @@ package edu.towson.cosc237;
 
 /**
  *
- * @author 
+ * @author
  */
-public class Class_3 extends Class_1 { 
+public class Box extends Rectangle { 
 
-    Class_3() {
+    Box() {
         
     }
-    public void method_1() { 
-        System.out.println("Class_3 output from method_1"); 
+    public void method_2() { 
+        System.out.println("Box output from method_2"); 
     }
 
     public String toString() { 
-        return "toString() from Class_3. No method_2 in Class_3."; 
+        return "toString() from Box. No method_1 in Box."; 
     } 
 }
