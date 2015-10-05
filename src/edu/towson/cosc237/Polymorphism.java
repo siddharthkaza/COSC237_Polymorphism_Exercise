@@ -12,7 +12,7 @@ package edu.towson.cosc237;
 public class Polymorphism {
 
     /**
-     * @param args the command line arguments
+     * @param args 
      */
     public static void main(String[] args) {
         Shape[] someObj = {new Shape(), new Circle(), new Rectangle(), new Box()};
